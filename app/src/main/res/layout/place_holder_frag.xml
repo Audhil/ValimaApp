@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/place_holder_base_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/save_the_date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:alpha="0"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+
+        <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+            android:id="@+id/save_the_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/text_bg"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:text="@string/saveTheDate"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"/>
+        <!--android:textSize="40sp"/>-->
+
+        <ImageView
+            android:id="@+id/pattern_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/save_the_date"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:contentDescription="@string/aabidaNRabbaniOnly"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            app:srcCompat="@drawable/ic_white_heartin_wrapper"/>
+
+        <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+            android:id="@+id/brideGroomNames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pattern_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/text_bg"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="@string/brideGroomNames"
+            android:textColor="@android:color/white"
+            android:textSize="55sp"/>
+
+        <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+            android:id="@+id/are_getting_married"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/brideGroomNames"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/valimahToFollow"
+            android:textColor="@android:color/white"
+            android:textSize="35sp"/>
+        <!--android:layout_marginTop="10dp"-->
+
+        <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/are_getting_married"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/valimahDate"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"/>
+
+        <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/chennai"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"/>
+
+    </RelativeLayout>
+
+    <!--I think I'm not using this layout anymore-->
+    <RelativeLayout
+        android:id="@+id/wedding_invitation_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:alpha="0">
+
+        <com.wordpress.smdaudhilbe.nikah.custom.views.CandleScriptTextView
+            android:id="@+id/wedding_invitation_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/weddingInvitation"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"/>
+
+        <com.wordpress.smdaudhilbe.nikah.custom.views.BirdsOfParadiseTextView
+            android:id="@+id/it_gives_immense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wedding_invitation_title"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/itGivesImmense"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/details_base_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:alpha="0"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+            android:id="@+id/names"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/text_bg_40"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/aabidaNRabbaniOnly"
+            android:textColor="@android:color/black"
+            android:textSize="50sp"/>
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/names"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/aabidaNRabbaniOnly"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            app:srcCompat="@drawable/ic_pattern_wrapper"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon"
+            android:background="@drawable/text_bg_40"
+            android:orientation="vertical">
+
+            <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+                android:id="@+id/dateTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/date"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"/>
+
+            <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/dateActual"
+                android:textColor="@android:color/black"
+                android:textSize="35sp"/>
+
+            <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+                android:id="@+id/timeTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/time"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"/>
+
+            <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/timeActual"
+                android:textColor="@android:color/black"
+                android:textSize="35sp"/>
+
+            <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+                android:id="@+id/venueTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/venue"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"/>
+
+            <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/venueActual"
+                android:textColor="@android:color/black"
+                android:textSize="34sp"/>
+
+            <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+                android:id="@+id/locationTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/location"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"/>
+
+            <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+                android:id="@+id/locationBitlyTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:textColor="@color/text_blue"
+                android:textSize="35sp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.wordpress.smdaudhilbe.nikah.custom.views.TangerineBoldTextView
+        android:id="@+id/thankYouTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="30dp"
+        android:text="@string/thankYouMessage"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,206 @@
+<!--<resources>-->
+<!--<string name="app_name">Valimah</string>-->
+<!--<string name="Name">Name</string>-->
+
+<!--<string name="Email">Email</string>-->
+<!--<string name="typeYourWishesHere">Type your wishes here\u2026</string>-->
+
+<!--<string name="sendWishes">Send wishes</string>-->
+
+<!--<string name="clearAll">Clear all</string>-->
+
+<!--<string name="enterAllFields">Enter all fields, try again</string>-->
+<!--<string name="enterValidEmailAddress">Enter valid email address</string>-->
+
+<!--<string name="emailIdAlreadyExists">The email address is already in use by another account.</string>-->
+
+<!--<string name="networkNotAvailable">Network not available, try again after connection</string>-->
+
+<!--<string name="thankYouMessage">Thanks for taking the time to drop your kind wishes! :-)</string>-->
+
+<!--<string name="wishEditSuccesful">Your wishes edited successfully, Thank you so much! :-)</string>-->
+
+<!--<string name="sampleWishes">sample-&#45;&#45;Wish you happy married life!-&#45;&#45;sample</string>-->
+<!--<string name="enterValidName">Enter valid name</string>-->
+
+<!--<string name="timeDateYearFormat">hh:mm:ss a, dd MMM yyyy</string>-->
+
+<!--&lt;!&ndash;<string name="weInvitingYou">We inviting you and your family\non  29  July  2017</string>&ndash;&gt;-->
+<!--<string name="weInvitingYou">I invite you and your family\non  29  July  2017</string>-->
+
+
+<!--&lt;!&ndash;<string name="saveTheDate">Save\nthe\nDate</string>&ndash;&gt;-->
+<!--<string name="saveTheDate">Save the Date</string>-->
+<!--&lt;!&ndash;<string name="aabidaNRabbani">Aabida &amp; Rabbani\nare getting married\nJuly  29  // Chennai</string>&ndash;&gt;-->
+<!--<string name="aabidaNRabbani">Aabida &amp; Rabbani are getting married</string>-->
+
+<!--&lt;!&ndash;<string name="aabidaNRabbaniOnly">Aabida &amp; Rabbani</string>&ndash;&gt;-->
+<!--<string name="aabidaNRabbaniOnly">Bride &amp; Groom</string>-->
+<!--&lt;!&ndash;<string name="brideGroomNames">Aabida\n&amp;\nRabbani</string>&ndash;&gt;-->
+<!--<string name="brideGroomNames">Bride\n&amp;\nGroom</string>-->
+
+<!--<string name="areGettingMarried">are getting married</string>-->
+<!--&lt;!&ndash;<string name="valimahToFollow">Valimah to follow</string>&ndash;&gt;-->
+<!--<string name="valimahToFollow">Valimah</string>-->
+
+<!--<string name="weddingInvitation">Nikah Invitation</string>-->
+<!--<string name="valimahInvitation">Valimah Invitation</string>-->
+
+<!--&lt;!&ndash;<string name="itGivesImmense">\"It gives me immense pleasure to invite you for my sister\'s Nikah. Your presence will make this day more special    \"</string>&ndash;&gt;-->
+<!--<string name="itGivesImmense">\"It gives me immense pleasure to invite you for my sister\'s Valimah. Your presence will make this day more special\"</string>-->
+
+<!--<string name="aabida">Aabida</string>-->
+<!--<string name="rabbani">Rabbani</string>-->
+
+<!--<string name="date"><u>Date</u></string>-->
+<!--<string name="time"><u>Time</u></string>-->
+<!--<string name="venue"><u>Venue</u></string>-->
+<!--<string name="location"><u>Location</u></string>-->
+<!--&lt;!&ndash;<string name="dateActual">Saturday, 29th July 2017</string>&ndash;&gt;-->
+<!--&lt;!&ndash;<string name="dateActual">Sunday, 30th July 2017</string>&ndash;&gt;-->
+<!--<string name="dateActual">Day, DD MMM YYYY</string>-->
+<!--&lt;!&ndash;<string name="timeActual">07:00 p.m</string>&ndash;&gt;-->
+<!--<string name="timeActual">HH:MM a</string>-->
+<!--&lt;!&ndash;<string name="venueActual">M S Mahal, Triplicane, Chennai</string>&ndash;&gt;-->
+<!--<string name="venueActual">Marriage Hall, City</string>-->
+<!--&lt;!&ndash;<string name="locationActual">bit.ly/msmahal</string>&ndash;&gt;-->
+<!--<string name="locationActual">link to the map</string>-->
+
+<!--<string name="yourWishes">Your wishes to</string>-->
+
+<!--<plurals name="dayKind">-->
+<!--<item quantity="one">@string/day</item>-->
+<!--<item quantity="other">@string/days</item>-->
+<!--</plurals>-->
+
+<!--<plurals name="hrKind">-->
+<!--<item quantity="one">@string/hr</item>-->
+<!--<item quantity="other">@string/hrs</item>-->
+<!--</plurals>-->
+
+<!--<plurals name="minKind">-->
+<!--<item quantity="one">@string/min</item>-->
+<!--<item quantity="other">@string/mins</item>-->
+<!--</plurals>-->
+
+
+<!--<string name="day">DAY</string>-->
+<!--<string name="days">DAYS</string>-->
+<!--<string name="hr">HOUR</string>-->
+<!--<string name="hrs">HOURS</string>-->
+<!--<string name="min">MINUTE</string>-->
+<!--<string name="mins">MINUTES</string>-->
+<!--<string name="secs">SECONDS</string>-->
+
+<!--<string name="twentyNine">29</string>-->
+<!--<string name="july">July</string>-->
+<!--<string name="forwardSlashes"> // </string>-->
+<!--&lt;!&ndash;<string name="chennai">Chennai</string>&ndash;&gt;-->
+<!--<string name="chennai">Place</string>-->
+
+<!--<string name="someErrorOccurred">Some error occurred, try with some other account or try re installing app if it persists next time :-)</string>-->
+
+<!--<string name="zero">0</string>-->
+<!--<string name="nikahDate">29.07.2017</string>-->
+<!--&lt;!&ndash;<string name="valimahDate">30.07.2017</string>&ndash;&gt;-->
+<!--<string name="valimahDate">DD.MM.YYYY</string>-->
+<!--</resources>-->
+<resources>
+    <string name="app_name">Valimah</string>
+    <string name="Name">Name</string>
+
+    <string name="Email">Email</string>
+    <string name="typeYourWishesHere">Type your wishes here\u2026</string>
+
+    <string name="sendWishes">Send wishes</string>
+
+    <string name="clearAll">Clear all</string>
+
+    <string name="enterAllFields">Enter all fields, try again</string>
+    <string name="enterValidEmailAddress">Enter valid email address</string>
+
+    <string name="emailIdAlreadyExists">The email address is already in use by another account.</string>
+
+    <string name="networkNotAvailable">Network not available, try again after connection</string>
+
+    <string name="thankYouMessage">Thanks for taking the time to drop your kind wishes! :-)</string>
+
+    <string name="wishEditSuccesful">Your wishes edited successfully, Thank you so much! :-)</string>
+
+    <string name="sampleWishes">sample---Wish you happy married life!---sample</string>
+    <string name="enterValidName">Enter valid name</string>
+
+    <string name="timeDateYearFormat">hh:mm:ss a, dd MMM yyyy</string>
+
+    <!--<string name="weInvitingYou">We inviting you and your family\non  29  July  2017</string>-->
+    <string name="weInvitingYou">I invite you and your family\non  29  July  2017</string>
+
+
+    <!--<string name="saveTheDate">Save\nthe\nDate</string>-->
+    <string name="saveTheDate">Save the Date</string>
+    <!--<string name="aabidaNRabbani">Aabida &amp; Rabbani\nare getting married\nJuly  29  // Chennai</string>-->
+    <string name="aabidaNRabbani">Aabida &amp; Rabbani are getting married</string>
+
+    <string name="aabidaNRabbaniOnly">Aabida &amp; Rabbani</string>
+    <string name="brideGroomNames">Aabida\n&amp;\nRabbani</string>
+
+    <string name="areGettingMarried">are getting married</string>
+    <string name="valimahToFollow">Valimah</string>
+
+    <string name="weddingInvitation">Nikah Invitation</string>
+    <string name="valimahInvitation">Valimah Invitation</string>
+
+    <!--<string name="itGivesImmense">\"It gives me immense pleasure to invite you for my sister\'s Nikah. Your presence will make this day more special    \"</string>-->
+    <string name="itGivesImmense">\"It gives me immense pleasure to invite you for my sister\'s Valimah. Your presence will make this day more special\"</string>
+
+    <string name="aabida">Aabida</string>
+    <string name="rabbani">Rabbani</string>
+
+    <string name="date"><u>Date</u></string>
+    <string name="time"><u>Time</u></string>
+    <string name="venue"><u>Venue</u></string>
+    <string name="location"><u>Location</u></string>
+    <!--<string name="dateActual">Saturday, 29th July 2017</string>-->
+    <string name="dateActual">Sunday, 30th July 2017</string>
+    <string name="timeActual">07:00 p.m</string>
+    <string name="venueActual">M S Mahal, Triplicane, Chennai</string>
+    <!--<string name="locationActual">Goto bit.ly/msmahal</string>-->
+    <string name="locationActual">bit.ly/msmahal</string>
+
+    <string name="yourWishes">Your wishes to</string>
+
+    <plurals name="dayKind">
+        <item quantity="one">@string/day</item>
+        <item quantity="other">@string/days</item>
+    </plurals>
+
+    <plurals name="hrKind">
+        <item quantity="one">@string/hr</item>
+        <item quantity="other">@string/hrs</item>
+    </plurals>
+
+    <plurals name="minKind">
+        <item quantity="one">@string/min</item>
+        <item quantity="other">@string/mins</item>
+    </plurals>
+
+
+    <string name="day">DAY</string>
+    <string name="days">DAYS</string>
+    <string name="hr">HOUR</string>
+    <string name="hrs">HOURS</string>
+    <string name="min">MINUTE</string>
+    <string name="mins">MINUTES</string>
+    <string name="secs">SECONDS</string>
+
+    <string name="twentyNine">29</string>
+    <string name="july">July</string>
+    <string name="forwardSlashes"> // </string>
+    <string name="chennai">Chennai</string>
+
+    <string name="someErrorOccurred">Some error occurred, try with some other account or try re installing app if it persists next time :-)</string>
+
+    <string name="zero">0</string>
+    <string name="nikahDate">29.07.2017</string>
+    <string name="valimahDate">30.07.2017</string>
+</resources>
