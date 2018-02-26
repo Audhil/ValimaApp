@@ -29,11 +29,11 @@ class TimerFragment : Fragment() {
     var tempNo = 0
     var tempF = 0f
     var millisToTick = 0L
-    lateinit var timer: CountDownTimer
+    var timer: CountDownTimer? = null
 
     override fun onPause() {
         super.onPause()
-        timer.cancel()
+        timer?.cancel()
     }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -97,6 +97,6 @@ class TimerFragment : Fragment() {
                 minsTextView.text = getString(R.string.mins)
             }
         }
-        timer.start()
+        timer?.start()
     }
 }
